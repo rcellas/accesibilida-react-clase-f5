@@ -1,6 +1,6 @@
-
 import { useState } from "react";
 import ModalValidation from "../Modal/ModalValidation";
+import './Form.css'
 
 function Form() {
   const [showModal, setShowModal] = useState(false);

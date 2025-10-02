@@ -1,3 +1,4 @@
+import './Habilities.css'
 
 function Habilities() {
    const skills = [
@@ -77,7 +78,7 @@ function Habilities() {
       alt: "Icono de diseño responsive"
     }
   ];
-  
+
   return (
     <section>
       <h2>Habilidades de Programación Web</h2>
