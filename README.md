@@ -43,3 +43,5 @@ pnpm run dev
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - [Who Can Use](https://whocanuse.com/)
 - [A11y Project](https://www.a11yproject.com/)
+- [Universidad de alicante - Curso de accesibilidad web](https://web.ua.es/es/accesibilidad/unidad-de-accesibilidad-digital.html)
+- [Accesibilidad web - Curso de Google](https://developers.google.com/web/fundamentals/accessibility)
