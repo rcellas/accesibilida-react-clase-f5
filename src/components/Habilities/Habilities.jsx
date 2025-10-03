@@ -1,7 +1,7 @@
-import './Habilities.css'
+import "./Habilities.css"
 
 function Habilities() {
-   const skills = [
+  const skills = [
     {
       name: "HTML",
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
@@ -80,13 +80,19 @@ function Habilities() {
   ];
 
   return (
-    <section>
-      <h2>Habilidades de Programación Web</h2>
-      <ul>
-        {skills.map((skill,index)=>(
-          <li key={index} className='habilities__item'>
-            <img src={skill.image} alt="" className='habilities__icon' role='presentation'  />
-            <p className='habilities__name'>{skill.name}</p>
+    <section className="habilities" aria-labelledby="habilities-title">
+      <h2 id="habilities-title" className="habilities__title">Habilidades de Programación Web</h2>
+      <ul className="habilities__list">
+        {skills.map((skill, index) => (
+          <li key={index} className="habilities__item">
+            <img 
+              src={skill.image} 
+              alt=""
+              className="habilities__icon"
+              loading="lazy"
+              aria-hidden="true"
+            />
+            <span className="habilities__name">{skill.name}</span>
           </li>
         ))}
       </ul>

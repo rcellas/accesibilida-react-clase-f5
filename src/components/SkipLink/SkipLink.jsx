@@ -1,8 +1,8 @@
-import './SkipLink.css'
+import "./SkipLink.css"
 
 function SkipLink() {
   return (
-    <a href="#main-content" className='skip-link'>Saltar al contenido principal</a>
+    <a href="#main-content" className="skip-link">Saltar a contenido principal</a>
   )
 }
 
