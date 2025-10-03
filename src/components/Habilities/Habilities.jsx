@@ -83,13 +83,12 @@ function Habilities() {
     <section>
       <h2>Habilidades de Programación Web</h2>
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>Git</li>
-        <li>Responsive Design</li>
+        {skills.map((skill,index)=>(
+          <li key={index} className='habilities__item'>
+            <img src={skill.image} alt="" className='habilities__icon' role='presentation'  />
+            <p className='habilities__name'>{skill.name}</p>
+          </li>
+        ))}
       </ul>
     </section>
   );
